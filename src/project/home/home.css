@@ -1,0 +1,13 @@
+.h-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;
+}
+.h-logo .lottieh{
+    width: 900px;
+}
+@media screen and (max-width:480px) {
+    .h-logo .lottieh{
+        width: 400px;
+    }
+}

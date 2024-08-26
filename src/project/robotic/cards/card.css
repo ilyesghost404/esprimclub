@@ -1,0 +1,158 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px; 
+    place-items: center;   
+}
+.cards .cards-child{
+    width: 700px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    place-items: center;
+    justify-content: center;
+}
+.cards .cards-child .card{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cards .cards-child .card img{
+    width: 200px;
+    height: 200px;
+}
+.cards .cards-child  .card .card-t{
+    font-size: 30px;
+}
+.cards .cards-child .card-content1{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 1200px;
+    height: 900px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    flex-direction: column; 
+    text-align: center; 
+    background-color: goldenrod;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 35px black;
+}
+.cards .cards-child .card-content1 button,
+.cards .cards-child .card-content2 button,
+.cards .cards-child .card-content3 button,
+.cards .cards-child .card-content4 button,
+.cards .cards-child .card-content5 button{
+    background-color: gold;
+    margin-bottom: 60px;
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+}
+.cards .cards-child .card-content1 img,
+.cards .cards-child .card-content2 img,
+.cards .cards-child .card-content3 img,
+.cards .cards-child .card-content4 img,
+.cards .cards-child .card-content5 img{
+    width: 500px;
+    height: 500px;
+}
+.cards .cards-child .card-content2{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 1200px;
+    height: 900px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    flex-direction: column; 
+    text-align: center; 
+    background-color: goldenrod;
+    box-shadow: 5px 5px 35px black;
+    
+}
+.cards .cards-child .card-content3{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 1200px;
+    height: 900px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    flex-direction: column; 
+    text-align: center; 
+    background-color: goldenrod;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 35px black;
+    
+}
+.cards .cards-child .card-content4{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 20px;
+    width: 1200px;
+    height: 900px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    flex-direction: column; 
+    text-align: center; 
+    background-color: goldenrod;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 35px black;
+    
+}
+
+@media screen and (max-width:480px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .cards .cards-child{
+        grid-template-columns: 1fr;
+    }
+    .cards .cards-child .card-content1{
+        width: 400px;
+        height: 600px;
+        margin-bottom: 1200px;
+        margin-right: 0;
+    }
+    .cards .cards-child .card-content2{
+        width: 400px;
+        height: 600px;
+        margin-bottom: 700px;
+    }
+    .cards .cards-child .card-content3{
+        width: 400px;
+        height: 600px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .cards .cards-child .card-content4{
+        width: 400px;
+        height: 600px;
+        margin-top: 900px;
+    }
+    .cards .cards-child .card-content1 img,
+    .cards .cards-child .card-content2 img,
+    .cards .cards-child .card-content3 img,
+    .cards .cards-child .card-content4 img,
+    .cards .cards-child .card-content5 img{
+        width: 300px;
+        height: 300px;
+    }
+}

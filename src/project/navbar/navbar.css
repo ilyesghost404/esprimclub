@@ -1,0 +1,106 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+.navbar .nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 20px;
+    height: 32px;
+}
+.navbar .nav-menu li{
+    padding: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .42s ease;
+}
+.navbar .nav-menu li:hover{
+    background-color: rgb(212, 211, 211);
+}
+.navbar .nav-menu .active2{
+    border-bottom:6px solid #0AD1CB;
+    background-color: rgb(177, 214, 219);
+}
+.navbar .nav-menu .active3{
+    border-bottom:6px solid rgb(255, 204, 0);
+    background-color: rgb(224, 212, 165);
+}
+.navbar .nav-menu .active4{
+    border-bottom:6px solid rgb(0, 185, 12);
+    background-color: rgb(191, 247, 195);
+}
+.navbar .nav-menu .active5{
+    border-bottom:6px solid rgb(0, 123, 255);
+    background-color: rgb(201, 225, 251);
+}
+.navbar .nav-menu .active6{
+    border-bottom:6px solid rgb(255, 0, 0);
+    background-color: rgb(251, 201, 201);
+}
+.navbar .nav-menu li i{
+    color: black;
+    margin-right: 10px;
+}
+.navbar .nav-menu li span{
+    color: black;
+}
+.navbar .nav-menu #home-icon{
+    display: none;
+}
+.navbar #st-home-icon{
+    font-size: 25px;
+    padding: 5px;
+    color: black;
+    width: 150px;
+    margin-left: 30px;
+    transition: all .42s ease;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar #st-home-icon:hover{
+    background-color: rgb(212, 211, 211);
+}
+@media screen and (max-width:480px) {
+    .navbar{
+        z-index: 100;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        top: 94%;
+        border-top: 1px solid black;
+        background-color: white;
+    }
+    .navbar .nav-menu{
+        gap: 0px;
+    }
+    .navbar .nav-menu li{
+        width: 60px;
+        display: flex;
+        
+    }
+    .navbar .nav-menu li i{
+        margin-left: 10px;
+    }
+    .navbar .nav-menu li span{
+        display: none;
+    }
+    .navbar .nav-menu #home-icon{
+        display: flex;
+        font-size: 50px;
+        color: red;
+        background-color: white;
+        border-radius: 100px;
+        border-top: 1px solid black;
+        
+    }
+    .navbar #st-home-icon{
+        display: none;
+    }
+
+}

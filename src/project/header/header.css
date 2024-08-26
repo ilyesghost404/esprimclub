@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+}
+.head{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

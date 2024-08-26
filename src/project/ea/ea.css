@@ -1,0 +1,35 @@
+.ea-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    border-radius: 0px 0px 120px 120px;
+    height: 800px;
+    margin-top: 20px;
+}
+.ea-home .ea-home-text h1{
+    font-size: 100px;
+}
+.ea-home .ea-home-logo{
+    height: 350px;
+}
+@media screen and (max-width:480px){
+    .ea-home{
+        height: 100%;
+        flex-direction: column-reverse;
+        gap: 0;
+        border-radius: 0px 0px 50px 50px;
+    }
+    .ea-home .ea-home-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 60px;
+        bottom: 70%;
+    }
+    .ea-home .ea-home-text h1{
+
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,164 @@
+.ds-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background: linear-gradient(180deg, white 30%, #0AD1CB 90%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 120px 120px;
+    height: 100vh;
+}
+.ds-home .ds-home-text h1{
+    font-size: 100px;
+    color: #0AD1CB;
+}
+.ds-home .ds-home-text p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ds-home .ds-home-text button{
+    background-color: #0AD1CB;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all .72s ease;
+}
+.ds-home .ds-home-text button:hover{
+    background-color: white;
+    color: #0AD1CB;
+    border: 1px solid #0AD1CB;
+}
+
+/* about club */
+.ds-a-h{
+    text-align: center;
+    margin: 75px;
+    font-size: 100px;
+}
+.ds-about{
+    margin: 50px;
+    display: flex;
+    height: 500px;
+    gap: 30px;
+    margin-bottom: 300px;
+}
+.ds-about .ds-a-text{
+    height: 200px;
+    border: 2px solid;
+    height: 450px;
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all .42s ease;
+}
+.ds-about .ds-a-text:hover{
+    transform: scale(1.1);
+    margin: 20px;
+}
+.off{
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 100px;
+    
+}
+.ds-workout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, white 50%, #0AD1CB);
+    
+}
+.work{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 200px;
+}
+.ds-workout .text-workout{
+    margin-left: 50px;
+    padding: 30px;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 550px;
+}
+.ds-workout .text-workout h1{
+    font-size: 50px;
+}
+@media screen and (max-width:480px){
+    .ds-home{
+        height: 100%;
+        flex-direction: column-reverse;
+        gap: 0;
+        border-radius: 0px 0px 50px 50px;
+    }
+    .ds-home .ds-home-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 60px;
+        bottom: 70%;
+    }
+    .ds-home .ds-home-text h1{
+
+        font-size: 50px;
+    }
+    .ds-home .ds-home-text p{
+        font-size: 15;
+    }
+    .ds-home-logo{
+        height: 350px;
+        margin-bottom: 0;
+    }
+    /* about club */
+    .ds-a-h{
+        font-size: 70px;
+    }
+    .ds-about{
+        flex-direction: column;
+        margin-bottom: 30px;
+        
+    }
+    .ds-about .ds-a-text{
+        height: 800px;
+        font-size: 16px;
+        padding: 20px;
+    }
+    .ds-about .ds-a-text:hover{
+        transform: scale(1.1);
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    /* cards */
+    .off{
+        margin-top: 1800px;
+    }
+    /* workout */
+    .ds-workout{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ds-workout .text-workout{
+        height:780px;  
+        text-align: start;
+        margin-right: 50px;
+    }
+    .work{
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+}
