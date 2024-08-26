@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ilyesghost404/esprimclub.git/static/css/main.15331196.css",
+    "main.js": "/ilyesghost404/esprimclub.git/static/js/main.32ed13ae.js",
+    "static/js/453.ed3810f9.chunk.js": "/ilyesghost404/esprimclub.git/static/js/453.ed3810f9.chunk.js",
+    "static/media/w4.png": "/ilyesghost404/esprimclub.git/static/media/w4.11fd83f10ba6bb6e2f4f.png",
+    "static/media/w3.png": "/ilyesghost404/esprimclub.git/static/media/w3.2ab2f413638a0426b58c.png",
+    "static/media/w1.png": "/ilyesghost404/esprimclub.git/static/media/w1.42a378d7f1bd6370cffd.png",
+    "static/media/w5.png": "/ilyesghost404/esprimclub.git/static/media/w5.c96c9ffa9465efe90926.png",
+    "static/media/workout2.png": "/ilyesghost404/esprimclub.git/static/media/workout2.1d8a72376f0a4ac5c700.png",
+    "static/media/w2.png": "/ilyesghost404/esprimclub.git/static/media/w2.873f3c6c9fb4785b1db5.png",
+    "static/media/workout1.png": "/ilyesghost404/esprimclub.git/static/media/workout1.c947c5930874ee9708fc.png",
+    "static/media/workout3.png": "/ilyesghost404/esprimclub.git/static/media/workout3.c0d93d20bba7f71a895d.png",
+    "static/media/default-avatar-profile-icon-of-social-media-user-vector.png": "/ilyesghost404/esprimclub.git/static/media/default-avatar-profile-icon-of-social-media-user-vector.7f499c147aff8beab470.png",
+    "index.html": "/ilyesghost404/esprimclub.git/index.html",
+    "main.15331196.css.map": "/ilyesghost404/esprimclub.git/static/css/main.15331196.css.map",
+    "main.32ed13ae.js.map": "/ilyesghost404/esprimclub.git/static/js/main.32ed13ae.js.map",
+    "453.ed3810f9.chunk.js.map": "/ilyesghost404/esprimclub.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15331196.css",
+    "static/js/main.32ed13ae.js"
+  ]
+}
