@@ -221,13 +221,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 50px;
     }
     .r-workout .text-workout{
-        height: 850px;  
+        height: 900px;  
         text-align: start;
         margin-right: 50px;
         border-radius: 20px;
         padding: 20px;
+        margin-bottom: 20px;
     }
     .work{
         font-size: 60px;
