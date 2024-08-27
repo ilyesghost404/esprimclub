@@ -62,8 +62,10 @@ export default function Data(){
                 
                 
             </section>
-                <h1 className='off'>officials club</h1>
+            <h1 className='off'>officials club</h1>
+            <section className='ds-offcials'>
                 <Card />
+            </section>
                 <h1 className='work'>WORKOUT</h1>
             <section className='ds-workout'>
                 <div className='text-workout'>

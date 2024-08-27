@@ -67,8 +67,10 @@ export default function Robotic(){
                 
                 
             </section>
-                <h1 className='off'>officials club</h1>
-                <Card />
+                <h1 className='offf'>officials club</h1>
+                <section className='r-offcials'>
+                    <Card />
+                </section>
                 <h1 className='work'>WORKOUT</h1>
             <section className='r-workout'>
                 <div className='text-workout'>

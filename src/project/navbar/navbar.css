@@ -50,9 +50,6 @@
 .navbar .nav-menu li span{
     color: black;
 }
-.navbar .nav-menu #home-icon{
-    display: none;
-}
 .navbar #st-home-icon{
     font-size: 25px;
     padding: 5px;
@@ -70,6 +67,7 @@
     .navbar{
         z-index: 100;
         align-items: center;
+        justify-content: center;
         position: fixed;
         width: 100%;
         top: 94%;
@@ -80,27 +78,25 @@
         gap: 0px;
     }
     .navbar .nav-menu li{
-        width: 60px;
+        width: 40px;
         display: flex;
+
         
     }
     .navbar .nav-menu li i{
         margin-left: 10px;
+        margin-bottom: 5px;
     }
     .navbar .nav-menu li span{
         display: none;
     }
-    .navbar .nav-menu #home-icon{
-        display: flex;
-        font-size: 50px;
-        color: red;
-        background-color: white;
-        border-radius: 100px;
-        border-top: 1px solid black;
-        
+    .navbar span{
+        display: none;
     }
     .navbar #st-home-icon{
-        display: none;
+        margin-left: 0;
+        color: red;
+        width: 40px;
     }
 
 }
