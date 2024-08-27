@@ -10,22 +10,22 @@ export default function Form(){
             </div>
             <div>
                 <h3>last name</h3>
-                <input type='text' name='firstname'/>
+                <input type='text' name='lastname'/>
             </div>
             <div>
                 <h3>id esprim</h3>
-                <input type='text' name='firstname'/>
+                <input type='text' name='idesprim'/>
             </div>
             <div>
                 <h3>email</h3>
-                <input type='email' name='firstname'/>
+                <input type='email' name='email'/>
             </div>
             <select name='club'>
                 <option>select your club</option>
-                <option>robotic</option>
-                <option>data science</option>
-                <option>sports</option>
-                <option>ea sports</option>
+                <option value='robotic'>robotic</option>
+                <option value='data science'>data science</option>
+                <option value='sports'>sports</option>
+                <option value='ea sports'>ea sports</option>
             </select>
             <button>SUBMIT</button>
         </form>

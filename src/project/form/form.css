@@ -51,3 +51,26 @@
     border: 1px solid red;
     transform: scale(1.1);
 }
+@media screen and (max-width:480px){
+    .form{  
+        width: 400px;
+        margin-left: 45px;
+
+    }
+    .form div input{
+        width: 300px;
+    }
+}
+@media screen and (max-width:390px){
+    .form{  
+        width: 350px;
+        margin-left: 20px;
+
+    }
+    .form div input{
+        width: 200px;
+    }
+    .form select{
+        width: 200px;
+    }
+}
