@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/esprimclub/static/css/main.e35053d2.css",
-    "main.js": "/esprimclub/static/js/main.5f070afc.js",
+    "main.js": "/esprimclub/static/js/main.eb817f1e.js",
     "static/js/453.ed3810f9.chunk.js": "/esprimclub/static/js/453.ed3810f9.chunk.js",
     "static/media/w4.png": "/esprimclub/static/media/w4.11fd83f10ba6bb6e2f4f.png",
     "static/media/w3.png": "/esprimclub/static/media/w3.2ab2f413638a0426b58c.png",
@@ -14,11 +14,11 @@
     "static/media/default-avatar-profile-icon-of-social-media-user-vector.png": "/esprimclub/static/media/default-avatar-profile-icon-of-social-media-user-vector.7f499c147aff8beab470.png",
     "index.html": "/esprimclub/index.html",
     "main.e35053d2.css.map": "/esprimclub/static/css/main.e35053d2.css.map",
-    "main.5f070afc.js.map": "/esprimclub/static/js/main.5f070afc.js.map",
+    "main.eb817f1e.js.map": "/esprimclub/static/js/main.eb817f1e.js.map",
     "453.ed3810f9.chunk.js.map": "/esprimclub/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e35053d2.css",
-    "static/js/main.5f070afc.js"
+    "static/js/main.eb817f1e.js"
   ]
 }
