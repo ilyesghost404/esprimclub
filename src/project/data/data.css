@@ -68,7 +68,11 @@
     margin-bottom: 100px;
     
 }
+.ds-offcials{
+    margin-top: 1800px;
+}
 .ds-workout{
+    
     display: flex;
     justify-content: center;
     align-items: center;

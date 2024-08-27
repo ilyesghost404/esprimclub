@@ -67,7 +67,7 @@ export default function Robotic(){
                 
                 
             </section>
-                <h1 className='offf'>officials club</h1>
+                {/* <h1 className='offf'>officials club</h1> */}
                 <section className='r-offcials'>
                     <Card />
                 </section>
