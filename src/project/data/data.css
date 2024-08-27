@@ -62,6 +62,12 @@
     transform: scale(1.1);
     margin: 20px;
 }
+.off{
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 100px;
+    
+}
 
 .ds-workout{
     
@@ -140,8 +146,75 @@
         margin-top: 20px;
     }
     /* cards */
-    .ds-offcials{
-        margin-top: 1800px;
+    .off{
+        margin-top: 1600px;
+        font-size: 70px;
+    }
+    /* workout */
+    .ds-workout{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ds-workout .text-workout{
+        height:780px;  
+        text-align: start;
+        margin-right: 50px;
+    }
+    .work{
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:390px){
+    .ds-home{
+        height: 100%;
+        flex-direction: column-reverse;
+        gap: 0;
+        border-radius: 0px 0px 50px 50px;
+    }
+    .ds-home .ds-home-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 60px;
+        bottom: 70%;
+    }
+    .ds-home .ds-home-text h1{
+
+        font-size: 50px;
+    }
+    .ds-home .ds-home-text p{
+        font-size: 15;
+    }
+    .ds-home-logo{
+        height: 350px;
+        margin-bottom: 0;
+    }
+    /* about club */
+    .ds-a-h{
+        font-size: 60px;
+    }
+    .ds-about{
+        flex-direction: column;
+        margin-bottom: 30px;
+        
+    }
+    .ds-about .ds-a-text{
+        height: 800px;
+        font-size: 16px;
+        padding: 50px;
+    }
+    .ds-about .ds-a-text:hover{
+        transform: scale(1.1);
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    /* cards */
+    .off{
+        margin-top: 2300px;
     }
     /* workout */
     .ds-workout{
