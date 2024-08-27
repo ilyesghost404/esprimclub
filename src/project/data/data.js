@@ -62,7 +62,6 @@ export default function Data(){
                 
                 
             </section>
-            {/* <h1 className='off'>officials club</h1> */}
             <section className='ds-offcials'>
                 <Card />
             </section>

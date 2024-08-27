@@ -62,15 +62,7 @@
     transform: scale(1.1);
     margin: 20px;
 }
-.off{
-    text-align: center;
-    font-size: 100px;
-    margin-bottom: 100px;
-    
-}
-.ds-offcials{
-    margin-top: 1800px;
-}
+
 .ds-workout{
     
     display: flex;
@@ -148,9 +140,8 @@
         margin-top: 20px;
     }
     /* cards */
-    .off{
+    .ds-offcials{
         margin-top: 1800px;
-        font-size: 80px;
     }
     /* workout */
     .ds-workout{
