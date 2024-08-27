@@ -9,6 +9,7 @@ import Robotic from './project/robotic/robotic';
 import Data from './project/data/data'
 import Sports from './project/sports/sports';
 import Ea from './project/ea/ea';
+import Form from './project/form/form';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/data" element={<Data />} />
         <Route path="/sports" element={<Sports />} />
         <Route path="/ea" element={<Ea />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </Router>
   );

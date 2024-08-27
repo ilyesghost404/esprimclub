@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 import lottieAnimation from './assets/Animation - 1724000412867.json';
 import Card from './cards/card';
 import Wokout from './workout/workout';
+import { Link } from 'react-router-dom';
 
 export default function Data(){
     return(
@@ -15,7 +16,7 @@ export default function Data(){
                 <h1>DATA SCIENCE</h1>
                 <p>Becoming a part of Scidata </p> <p>means joining a journey of discovery and innovation 🧠</p>
                 <p> Our club is more than just a place to learn; it's a community 👥</p>
-                <button className='ds-btn'>JOIN US</button>
+                <Link to="/form"><button className='ds-btn'>JOIN US</button></Link>
             </div>
             <div className="ds-home-logo">
                 <Lottie animationData={lottieAnimation} loop={true} className='lottie' />   

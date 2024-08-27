@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 import lottieAnimation from './assets/Animation - 1724172144147.json';
 import Card from './cards/card';
 import Wokout from './workout/workout';
+import { Link } from 'react-router-dom';
 
 
 export default function Robotic(){
@@ -17,7 +18,7 @@ export default function Robotic(){
                     <h1>ROBOTIC</h1>
                     <p>"Diving into the future with wires and circuits! 🤖 </p> 
                     <p>Join Club Robotic ESPRIMROBOTS for a tech-filled adventure.Innovate, code, and build with us💛</p>
-                    <button className='r-btn'>JOIN US</button>
+                    <Link to="/form"><button className='r-btn'>JOIN US</button></Link>
                 </div>
                 <div className="r-home-logo">
                     <Lottie animationData={lottieAnimation} loop={true} className='lottie' />
